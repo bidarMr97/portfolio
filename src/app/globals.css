@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: 'Michroma';
+  src: url('/fonts/Michroma-Regular.woff2') format('woff2');
+  
 }
+@font-face {
+  font-family: fa;
+  src: url('/fonts/Mj_DigitalArabiaLT.woff2') format('woff2');
+}
+@font-face {
+  font-family: fa1;
+  src: url('/fonts/Zain-ExtraLight.woff2') format('woff2');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: fa2;
+  src: url('/fonts/Lateef-Regular.woff2') format('woff2');
 }
+@font-face {
+  font-family: fa3;
+  src: url('/fonts/CascadiaCode-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: fa4;
+  src: url('/fonts/IBMPlexSansArabic-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: fa5;
+  src: url('/fonts/BYekan.woff2') format('woff2');
+}
+@font-face {
+  font-family: fa6;
+  src: url('/fonts/Shabnam-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-family: fa7;
+  src: url('/fonts/Peyda-SemiBold.woff2') format('woff2');
+}
+@custom-variant dark (&:where(.dark, .dark *));
