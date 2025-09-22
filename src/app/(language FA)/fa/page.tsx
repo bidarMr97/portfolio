@@ -10,6 +10,7 @@ export default function HomeFa() {
       <h1 className="font-[fa7] text-[50px] text-white  ml-[100px]">
            محمدرضا بیدار     </h1>
       <div>
+        
       </div>
     </div>
   );

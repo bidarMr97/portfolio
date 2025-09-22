@@ -31,11 +31,11 @@ export default function HomeEn() {
 
 
 
-      <div id="background" className="select-none h-70">
+      <div id="background" className="select-none h-70 scroll-mt-[100px]">
         <BackGround />
       </div>
 
-      <div id="skills" className="select-none h-70">
+      <div id="skills" className="select-none h-70 scroll-mt-[100px]">
         <Skills/>
       </div>
 
