@@ -39,4 +39,8 @@
   font-family: fa7;
   src: url('/fonts/Peyda-SemiBold.woff2') format('woff2');
 }
+@font-face {
+  font-family: fa8;
+  src: url('/fonts/Peyda-ExtraBold.woff2') format('woff2');
+}
 @custom-variant dark (&:where(.dark, .dark *));

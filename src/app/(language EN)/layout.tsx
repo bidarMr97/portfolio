@@ -8,7 +8,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html className="scroll-smooth">
       <body className="bg-[grey] dark:bg-[#0f172a] flex flex-col">
-        <nav className="sticky top-0 z-50  dark:bg-[#0f172a] p-2 flex items-center justify-between m-[10px]">
+        <nav className="sticky top-0 z-50 p-2 flex items-center justify-between m-[10px]">
           <div className="flex items-center">
             <LangToggle />
           </div>

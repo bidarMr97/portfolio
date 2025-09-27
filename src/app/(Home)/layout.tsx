@@ -4,7 +4,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
   
   return (
     <html>
-      <body className="bg-[grey] dark:bg-[#0f172a]">
+      <body>
       {children}
       </body>
     </html>
