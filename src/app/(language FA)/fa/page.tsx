@@ -12,7 +12,7 @@ export default function HomeFa() {
           </div>
       </div>
       <div className="my-16 fixed flex justify-center">
-        <div className="bg-white/10 backdrop-blur-md rounded-xl mr-[260px] w-[1000px]  h-screen flex items-center ">
+        <div className="bg-white/10 backdrop-blur-md rounded-xl mr-[260px] w-[1000px]  h-[44rem] flex items-center ">
         </div>
       </div>
 
