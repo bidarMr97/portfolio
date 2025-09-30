@@ -4,7 +4,7 @@ export default function HomeFa() {
   return (
     <div className="flex">
       <div className="fixed inset-0 -z-10 overflow-hidden">
-        <video src="/videos/code.mp4" autoPlay loop muted className="w-screen h-screen object-cover" />
+        <video src="/videos/clip.mp4" autoPlay loop muted className="w-screen h-screen object-cover" />
       </div>
           <div className="fixed top-10 mr-[5px] w-[250px] h-[700px] bg-white/10 backdrop-blur-md rounded-full">
           <div>
