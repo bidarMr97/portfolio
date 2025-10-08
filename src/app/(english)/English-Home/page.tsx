@@ -1,5 +1,5 @@
-import BackGround from "@/components/EnDocs/BackGround/page";
-import Skills from "@/components/EnDocs/Skills/page";
+import BackGround from "@/components/En-Components/BackGround/page";
+import Skills from "@/components/En-Components/EN-Skills/page";
 
 export default function HomeEn() {
 

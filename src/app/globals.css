@@ -43,4 +43,33 @@
   font-family: fa8;
   src: url('/fonts/Peyda-ExtraBold.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: fa9;
+  src:url('/fonts/BTraffic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: fa10;
+  src:url('/fonts/IRANSansXFaNum-Black.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: fa11;
+  src:url('/fonts/IRANSansXFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: fa12;
+  src:url('/fonts/IRANSansXFaNum-Regular.woff2') format('woff2');
+}
+
 @custom-variant dark (&:where(.dark, .dark *));
+
+
+html[lang="fa"] .social-links {
+  font-size: 16px;
+}
+html[lang="en"] .social-links {
+  font-size: 32px;
+}

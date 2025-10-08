@@ -1,12 +1,12 @@
 
 import "../globals.css";
-import LangToggle from "@/components/links/language-btn/toggle-switch";
-import DarkMode from "@/components/links/darkmode-btn/dark-btn";
-import SocialLinks from "@/components/links/social-links/socialLinks"
+import LangToggle from "@/components/links-buttons/language-btn/toggle-switch";
+import DarkMode from "@/components/links-buttons/darkmode-btn/dark-btn";
+import SocialLinks from "@/components/links-buttons/social-links/socialLinks"
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
 
   return (
-    <html className="scroll-smooth">
+    <html className="scroll-smooth" lang="en">
       <body className="bg-[grey] dark:bg-[#0f172a] flex flex-col">
         <nav className="sticky top-0 z-50 p-2 flex items-center justify-between m-[10px]">
           <div className="flex items-center">
@@ -20,7 +20,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
           {children}
         </main>
         <footer id="footer" className="p-4 text-white text-center">
-          <div className="flex justify-center gap-6">
+          <div className="flex justify-center gap-6 social-links">
             <SocialLinks />
           </div>
         </footer>
