@@ -1,13 +1,13 @@
 
 export default function AboutMe() {
   return (
-    <section className="w-full flex flex-col text-right px-8  py-10 leading-relaxed" dir="rtl">
+    <section className="lg:w-full lg:flex lg:flex-col lg:text-right lg:px-8  lg:py-10 lg:leading-relaxed text-center leading-[50px]" dir="rtl">
     
-      <h2 className="mt-[5px] font-[fa8] text-[4rem] mb-8 text-[#0888fe]">
+      <h2 className="lg:mt-[5px] font-[fa8] lg:text-[4rem] lg:mb-8 text-[#0888fe] text-[26px] pt-[50px]">
         برنامه‌نویس، توسعه‌دهنده و طراح صفحات وب
       </h2>
 
-      <p className="text-[18px] text-[#222] mb-8 leading-[50px]">
+      <p className="lg:text-[18px] text-[#222] lg:mb-8 lg:leading-[50px] p-[10px]">
         در بخش فرانت‌اند به طراحی و توسعه‌ی صفحات وب با استفاده از جدیدترین تکنولوژی‌ها فعالیت دارم. <br /> 
         مهارت‌های من در قسمت{" "}
         <a href="#skills" className="font-bold text-[#0888fe] hover:underline">
@@ -18,8 +18,8 @@ export default function AboutMe() {
                         
    
 
-      <h3 className="text-5xl font-[fa8] mt-[10%] mb-3 text-[#086948]">مسیر آینده</h3>
-      <p className="text-[18px] text-[#222] mt-[5%] leading-[50px]">
+      <h3 className="lg:text-5xl font-[fa8] lg:mt-[10%] lg:mb-3 text-[#086948] text-[25px]">مسیر آینده</h3>
+      <p className="lg:text-[18px] text-[#222] lg:mt-[5%] lg:leading-[50px]">
         در حال یادگیری تکنولوژی های روز دنیا هستم<br /> تا هدفم که نوشتن برنامه های سریع کاربردی و جامع هست را به تحقق برسانم و تمام تلاشم را در این مسیر به کار خواهم گرفت.
       </p>
     </section>

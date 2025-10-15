@@ -10,17 +10,17 @@ export default function HomeEn() {
     <div>
 
       <div className="h-160 flex flex-col lg:flex lg:flex-col lg:justify-start lg:pt-22">
-        <div className="relative lg:text-center font-[Michroma] z-10 select-none">
-          <h1 className="dark:text-[red] text-white text-[30px] pt-[50px] text-center lg:text-white   lg:text-8xl ">Mohammad-Reza Bidar</h1>
-          <h2 className="lg:text-stone-200 text-stone-200 pt-[50px] text-center lg:text-3xl lg:pt-[100px] ">Front-end Developer</h2>
+        <div className="relative text-center font-[Michroma] z-10 select-none mt-[50px]">
+          <h1 className="dark:text-[red] sm:text-4xl text-white text-[23px]  text-center lg:text-white   lg:text-6xl xl:text-[70px]">Mohammad-Reza Bidar</h1>
+          <h2 className="text-stone-200 mt-[50px]  text-center lg:text-3xl  lg:pt-[100px] ">Front-end Developer</h2>
         </div>
 
-        <div className=" blur-[1px] mt-[-110px]  font-[Michroma] text-center lg:mt-[-210px] select-none lg:dark:mt-[-230px]">
-          <h1 className="lg:blur-[4px] lg:dark:text-[red] dark:mt-[-10px] lg:dark:mt-[0px] text-[30px] lg:text-8xl">Mohammad-Reza Bidar</h1>
-          <h2 className="lg:text-3xl lg:pt-[90px] lg:dark:pt-[100px] lg:blur-[2px]  pt-[47px]">Front-end Developer</h2>
+        <div className="select-none blur-[1px] mt-[-100px] font-[Michroma] text-center lg:mt-[-225px]  lg:dark:mt-[-244px] xl:mt-[-235px] xl:dark:mt-[-255px]">
+          <h1 className=" text-[23px]  sm:text-4xl lg:blur-[4px] lg:dark:text-[red] dark:mt-[-10px] lg:dark:mt-[0px]  lg:text-6xl xl:text-[70px]" >Mohammad-Reza Bidar</h1>
+          <h2 className="mt-[50px] sm:mt-[42px] lg:text-3xl lg:pt-[100px] lg:dark:pt-[100px] lg:blur-[2px]">Front-end Developer</h2>
         </div>
         <div className="dark:hidden absolute inset-0 lg:w-full w-full h-full bg-gradient-to-b from-black via-transparent to-black opacity-60 pointer-events-none z-0" />
-        <div className="lg:flex grid-row text-center text-gray-300 leading-[50px] lg:justify-center  gap-x-5 lg:gap-x-20  mt-[100px] lg:text-[25px] font-[michroma] font-bold dark:text-[white] ">
+        <div className="lg:flex grid-row text-center text-gray-300 leading-[50px] lg:justify-center  gap-x-5 lg:gap-x-10  mt-[100px] lg:text-[25px] font-[michroma] font-bold dark:text-[white] ">
           <a href="#background">BackGround</a><br />
           <a href="#skills">Skills</a><br />
           <a href="/resume/bidar.pdf" download>PDF Resume</a><br />
@@ -32,11 +32,11 @@ export default function HomeEn() {
 
 
 
-      <div id="background" className="select-none lg:h-80 h-160 scroll-mt-[100px]">
+      <div id="background" className="select-none  h-170 lg:h-80  scroll-mt-[100px] sm:h-120 md:h-120 ">
         <BackGround />
       </div>
            
-      <div id="skills" className="select-none lg:h-70 h-220 scroll-mt-[100px]">
+      <div id="skills" className="select-none  lg:h-70  scroll-mt-[100px] lg:ml-[90px]">
         <Skills />
       </div>
 

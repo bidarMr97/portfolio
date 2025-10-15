@@ -1,7 +1,7 @@
 export default function BackGround() {
     return (
-        <div className="flex justify-center gap-x-5 lg:mt-[100px]">
-            <div>
+        <div className="lg:flex lg:justify-center lg:gap-x-5 lg:mt-[100px]">
+            <div className="lg:mt-[10px]">
                 <h1 className="font-[michroma]  text-[white] relative z-10 select-none dark:text-[red]">
                    &nbsp;&nbsp;&nbsp;Background
                 </h1>
@@ -9,7 +9,7 @@ export default function BackGround() {
                    &nbsp;&nbsp;&nbsp;Background
                 </h1>
             </div>
-            <div className="w-[700px] h-[100px] dark:text-[white]">
+            <div className=" p-[10px] leading-[30px] dark:text-[white] md:text-left md:ml-[10px] lg:w-[700px] lg:h-[100px] lg:ml-[0px]">
                 <p>
                     I&apos;m currently working on a project which is for Dota 1 players it&apos;s on PWA form.Its called Dota 1 assistant. I&apos;m also open to new opportunities, so if you&apos;d like to work together, please don&apos;t hesitate to reach out! 
                     <br /><br />

@@ -20,7 +20,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
           {children}
         </main>
         <footer id="footer" className="p-4 text-white text-center">
-          <div className="flex justify-center gap-6 social-links">
+          <div className="flex text-[30px] justify-center gap-6 social-links">
             <SocialLinks />
           </div>
         </footer>
