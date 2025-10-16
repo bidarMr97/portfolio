@@ -32,7 +32,7 @@ export default function HomeEn() {
 
 
 
-      <div id="background" className="select-none  h-170 lg:h-80  scroll-mt-[100px] sm:h-120 md:h-120 ">
+      <div id="background" className="mt-[40px] select-none  h-170 lg:h-80  scroll-mt-[100px] sm:h-120 md:h-120 ">
         <BackGround />
       </div>
            
