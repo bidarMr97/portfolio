@@ -19,7 +19,7 @@ export default function HomeEn() {
           <h1 className=" text-[23px]  sm:text-4xl lg:blur-[4px] lg:dark:text-[red] dark:mt-[-10px] lg:dark:mt-[0px]  lg:text-6xl xl:text-[70px]" >Mohammad-Reza Bidar</h1>
           <h2 className="mt-[50px] sm:mt-[42px] lg:text-3xl lg:pt-[100px] lg:dark:pt-[100px] lg:blur-[2px]">Front-end Developer</h2>
         </div>
-        <div className="dark:hidden absolute inset-0 lg:w-full w-full h-full bg-gradient-to-b from-black via-transparent to-black opacity-60 pointer-events-none z-0" />
+        <div className="dark:hidden absolute inset-0 h-[700px] lg:w-full lg:h-[800px] bg-gradient-to-b from-black via-transparent to-black opacity-60 pointer-events-none z-0" />
         <div className="lg:flex grid-row text-center text-gray-300 leading-[50px] lg:justify-center  gap-x-5 lg:gap-x-10  mt-[100px] lg:text-[25px] font-[michroma] font-bold dark:text-[white] ">
           <a href="#background">BackGround</a><br />
           <a href="#skills">Skills</a><br />

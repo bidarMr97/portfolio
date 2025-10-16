@@ -4,8 +4,8 @@ import { FaPhone } from "react-icons/fa6";
 import { FaPhoneFlip } from "react-icons/fa6";
 export default function ContactMe() {
   return (
-    <div className="absolute text-[#0888fe]">
-      <div className="flex items-center justify-center">
+    <div className="text-[#0888fe]">
+      <div className="flex items-center justify-center mb-[100px]">
         <FaArrowCircleDown className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[40px]" /><h1 className="text-[22px] font-[fa12] font-bold sm:text-[38px] lg:text-[30px]">لینک های تماس مستقیم با من</h1><FaArrowCircleDown className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[40px]" />
       </div>
 
