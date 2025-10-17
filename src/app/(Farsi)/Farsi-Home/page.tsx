@@ -10,9 +10,9 @@ import NavHighlighter from "@/components/Fa-Components/NavHighlighter/page";
 import { FaArrowCircleDown } from "react-icons/fa";
 export default function HomeFa() {
   return (
-    <div dir="rtl" className="lg:flex">
+    <div dir="rtl" className="lg:flex dark:bg-[black] dark:text-[white]">
 
-      <div className=" text-center h-[700px] lg:sticky lg:top-0 lg:h-full lg:border-l-[2px] lg:border-[whitesmoke] lg:w-[240px] ">
+      <div className=" text-center h-[700px] lg:sticky lg:top-0 lg:h-full lg:border-l-[2px] lg:border-[whitesmoke] lg:w-[240px] dark:bg-[black] dark:text-[white]">
 
         <div dir="rtl" className="flex gap-10 justify-between p-4">
           <LangToggle />
@@ -25,7 +25,7 @@ export default function HomeFa() {
 
 
           <h2 className="font-bold font-[fa12] mt-[10px] text-[20px] leading-[40px] flex flex-col lg:gap-0 gap-2 justify-center items-center lg:leading-[45px]">
-            <span className="flex items-center gap-2" > برنامه‌نویس<img width="20" height="20" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-programming-language-software-with-admin-access-control-programing-bold-tal-revivo.png" alt="external-programming-language-software-with-admin-access-control-programing-bold-tal-revivo" /></span>
+            <span className="flex items-center gap-2" > برنامه‌نویس<img  width="20" height="20" src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/external-programming-language-software-with-admin-access-control-programing-bold-tal-revivo.png" alt="external-programming-language-software-with-admin-access-control-programing-bold-tal-revivo" /></span>
 
             <span className="flex items-center gap-2">توسعه‌دهنده<img width="20" height="20" src="https://img.icons8.com/ios-filled/50/development-skill.png" alt="development-skill" /></span>
 
@@ -34,7 +34,7 @@ export default function HomeFa() {
 
         </div>
 
-        <div className="leading-[35px] mt-[40px] lg:leading-[55px]">
+        <div className="leading-[35px] mt-[40px] lg:leading-[55px] ">
           <NavHighlighter sectionIds={["project", "skills", "aboutme","contactme"]} />
         </div>
         {/* ******************************************************************************************************** */}
@@ -57,7 +57,7 @@ export default function HomeFa() {
 
       <div>
 
-        <div id="project" >
+        <div id="project">
           <Projects />
         </div>
 
@@ -71,7 +71,7 @@ export default function HomeFa() {
         </div>
 
 
-        <div id="contactme" dir="ltr" className="flex mt-[100px] leading-[50px] items-center justify-center text-center relative sm:mb-[100px]">
+        <div id="contactme" dir="ltr" className="flex mt-[100px] leading-[50px] items-center justify-center text-center relative sm:pb-[100px]">
           <img src="/images/silver.jpeg" alt="" className="absolute -z-1 h-full w-full object-cover blur-3xl" />
           <div>
           <ContactMe />

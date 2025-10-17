@@ -42,7 +42,7 @@ export default function DarkMode() {
       <span
         className={`absolute top-1 left-1 w-8 h-8 flex items-center justify-center rounded-full shadow-md transform transition-transform duration-300 
           ${dark ? "translate-x-10 bg-[#0f172a]" : "translate-x-0 bg-[gray]" }`}>
-        <IoMoonSharp className={`${dark ? "text-[red]" : "text-[white]"}`} />
+        <IoMoonSharp className={`${dark ? "text-[white]" : "text-[white]"}`} />
       </span>
     </button>
   );

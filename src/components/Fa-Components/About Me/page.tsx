@@ -9,7 +9,7 @@ export default function AboutMe() {
         <div className="md:text-[30px]"> طراح صفحات وب</div>
       </h2>
 
-      <p className="font-[fa12] text-[#222] p-[10px] leading-[45px] text-right sm:text-center sm:text-[22px] sm:leading-[55px] lg:text-[18px] lg:leading-[50px] lg:p-[30px]">
+      <p className="font-[fa12] p-[10px] leading-[45px] text-right sm:text-center sm:text-[22px] sm:leading-[55px] lg:text-[18px] lg:leading-[50px] lg:p-[30px]">
         در بخش فرانت‌اند به طراحی و توسعه‌ی صفحات وب با استفاده از جدیدترین تکنولوژی‌ها فعالیت دارم. <br />
         مهارت‌های من در قسمت{" "}
         <a href="#skills" className="font-bold text-[#0888fe] hover:underline">
@@ -21,7 +21,7 @@ export default function AboutMe() {
 
 
       <h3 className=" font-[fa8] text-[#086948] text-[25px] sm:text-[45px] sm:pt-[15px] sm:mt-[20px] lg:text-4xl ">مسیر آینده</h3>
-      <p className="font-[fa12] text-[#222] p-[5px] leading-[45px] sm:text-[22px] sm:leading-[55px] lg:text-[18px]  lg:leading-[45px] lg:p-[30px]">
+      <p className="font-[fa12]  p-[5px] leading-[45px] sm:text-[22px] sm:leading-[55px] lg:text-[18px]  lg:leading-[45px] lg:p-[30px]">
         در حال یادگیری تکنولوژی های روز دنیا هستم<br /> تا هدفم که نوشتن برنامه های سریع کاربردی و جامع هست را به تحقق برسانم و <br />تمام تلاشم را در این مسیر به کار خواهم گرفت.
       </p>
     </section>

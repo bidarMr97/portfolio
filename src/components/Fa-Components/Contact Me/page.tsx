@@ -44,7 +44,7 @@ export default function ContactMe() {
         <a href="https://github.com/bidarMr97" target="_blank" rel="noopener noreferrer"
           className="flex items-center gap-2 transition-colors hover:text-white sm:items-center sm:shadow-xl/70 sm:rounded-xl sm:p-[2px] sm:gap-2 
           sm:mr-[50px] lg:text-[20px] lg:mr-[65px] ">
-          <FaGithub className="text-black text-[70px] sm:text-[30px]" /><span className="hidden sm:block ">https://github.com/bidarMr97</span></a>
+          <FaGithub className="text-black dark:text-white text-[70px] sm:text-[30px]" /><span className="hidden sm:block ">https://github.com/bidarMr97</span></a>
 
 
 
@@ -55,9 +55,9 @@ export default function ContactMe() {
           <span className="hidden sm:block ">www.linkedin.com/in/mohammadreza-bidar</span></a>
 
 
-        <a href="tel:+989192080697" className="hidden gap-2 transition-colors sm:block sm:flex sm:items-center sm:shadow-xl/70 sm:rounded-xl sm:p-[2px] sm:gap-2 sm:ml-[30px] lg:text-[20px]"><FaPhone />SIM1 +989192080697</a>
+        <a href="tel:+989192080697" className="hidden hover:text-green-400 gap-2 transition-colors sm:block sm:flex sm:items-center sm:shadow-xl/70 sm:rounded-xl sm:p-[2px] sm:gap-2 sm:ml-[30px] lg:text-[20px]"><FaPhone />SIM1 +989192080697</a>
 
-        <a href="tel:+989308413783" className="hidden gap-2 transition-colors sm:block sm:flex  sm:items-center sm:shadow-xl/70 sm:rounded-xl sm:p-[2px] sm:gap-2  lg:text-[20px]"><FaPhone />SIM2 +989308413783</a>
+        <a href="tel:+989308413783" className="hidden hover:text-green-400 gap-2 transition-colors sm:block sm:flex  sm:items-center sm:shadow-xl/70 sm:rounded-xl sm:p-[2px] sm:gap-2  lg:text-[20px]"><FaPhone />SIM2 +989308413783</a>
 
       </div>
 

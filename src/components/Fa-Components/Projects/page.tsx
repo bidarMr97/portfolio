@@ -3,7 +3,7 @@ export default function Projects() {
     return (
         <div className=" lg:flex lg:justify-center lg:items-center">
             <div>
-                <img src="/images/war.jpg" alt="warcraft dota 1 image" className="lg:blur-3xl " />
+         <img src="/images/war.jpg" alt="warcraft dota 1 image" className="lg:blur-3xl xl:h-[700px] xl:w-[1037px] 2xl:h-[800px] 2xl:w-[1286px]" />
             </div>
 
             <div className="lg:flex lg:absolute  lg:bg-[silver]/30 lg:h-[500px] lg:w-[770px]  lg:rounded-2xl ">

@@ -44,7 +44,7 @@ export default function NavHighlighter({ sectionIds }: NavHighlighterProps) {
             ${
               active === id
                 ? "lg:text-[#0888fe] lg:text-[24px]"
-                : "lg:text-gray-700"
+                : "lg:text-gray-700 dark:text-[white]"
             }
             after:content-[''] after:absolute after:right-0 after:-bottom-1
             after:h-[2px] after:bg-[#0888fe] after:transition-all after:duration-300`}
