@@ -23,7 +23,7 @@ export default function HomeFa() {
 
 
         <div className="select-none mt-[40px] lg:leading-[75px]">
-          {/* <h1 className="font-[fa8] text-[26px] text-[#0888fe]">&lt; /محمدرضا بیدار&gt;</h1> */}
+          <h1 className="font-[fa8] text-[26px] text-[#0888fe]">&lt; /محمدرضا بیدار&gt;</h1>
 
 
           <h2 className="font-bold font-[fa12] mt-[10px] text-[20px] leading-[40px] flex flex-col lg:gap-0 gap-2 justify-center items-center lg:leading-[45px]">
