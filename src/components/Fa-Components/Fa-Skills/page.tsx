@@ -30,7 +30,7 @@ export default function Skills() {
   ];
 
   return (
-    <section dir="rtl" className="lg:flex lg:flex-col lg:items-center lg:mt-20 lg:px-6">
+    <section className="lg:flex lg:flex-col lg:items-center lg:mt-20 lg:px-6">
    
       <div className="grid grid-cols-3 lg:grid lg:grid-cols-6 lg:gap-8">
         {skills.map((skill, index) => (

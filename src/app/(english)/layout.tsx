@@ -1,10 +1,24 @@
 
+import { Metadata } from "next";
 import "../globals.css";
 import LangToggle from "@/components/links-buttons/language-btn/toggle-switch";
 import DarkMode from "@/components/links-buttons/darkmode-btn/dark-btn";
 import SocialLinks from "@/components/links-buttons/social-links/socialLinks"
-export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
 
+export const metadata: Metadata = {
+  title: "Mr Bidar",
+  description:
+    "front-end developer portfolio project",
+     metadataBase: new URL("https://mrbidar.ir"),
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "/",
+  },
+};
+export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html className="scroll-smooth" lang="en">
       <body className="bg-[grey] dark:bg-[#0f172a] flex flex-col">

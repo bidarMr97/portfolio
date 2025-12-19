@@ -4,9 +4,9 @@ import { FaPhone } from "react-icons/fa6";
 import { FaPhoneFlip } from "react-icons/fa6";
 export default function ContactMe() {
   return (
-    <div className="text-[#0888fe]">
+    <section className="text-[#0888fe]">
       <div className="flex items-center justify-center mb-[100px]">
-        <FaArrowCircleDown className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[40px]" /><h1 className="text-[22px] font-[fa12] font-bold sm:text-[38px] lg:text-[30px]">لینک های تماس مستقیم با من</h1><FaArrowCircleDown className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[40px]" />
+        <FaArrowCircleDown className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[40px]" /><h3 className="text-[22px] font-[fa12] font-bold sm:text-[38px] lg:text-[30px]">لینک های تماس مستقیم با من</h3><FaArrowCircleDown className="text-[40px] sm:text-[60px] md:text-[80px] lg:text-[40px]" />
       </div>
 
       <div className="grid grid-cols-2 gap-y-8 mt-[60px] place-items-center ">
@@ -33,9 +33,9 @@ export default function ContactMe() {
 
 
 
-        <a href="https://www.bidar.mr97@gmail.com" target="_blank" rel="noopener noreferrer"
+        <a   href="https://mail.google.com/mail/?view=cm&to=bidar.mr97@gmail.com" target="_blank" rel="noopener noreferrer"
           className="flex items-center gap-2 transition-colors sm:items-center sm:shadow-xl/70 sm:rounded-xl sm:p-[2px] sm:gap-2 lg:text-[20px] hover:text-red-600">
-          <BiLogoGmail className=" text-red-600 text-[70px] sm:text-[30px]" /><span className="hidden sm:block ">https://www.bidar.mr97@gmail.com</span></a>
+          <BiLogoGmail className=" text-red-600 text-[70px] sm:text-[30px]" /><span className="hidden sm:block ">mailto:bidar.mr97@gmail.com</span></a>
 
 
 
@@ -81,6 +81,6 @@ export default function ContactMe() {
           </svg>
         </div></a>
       </div>
-    </div>
+    </section>
   );
 }
