@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "محمدرضا بیدار",
   description:
     "نمونه پورتفولیو برای برنامه نویسان و توسعه دهندگان وب",
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
   metadataBase: new URL("https://mrbidar.ir"),
   robots: {
     index: true,

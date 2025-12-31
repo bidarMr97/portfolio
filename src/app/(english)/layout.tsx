@@ -9,7 +9,9 @@ export const metadata: Metadata = {
   title: "Mr Bidar",
   description:
     "front-end developer portfolio project",
-     metadataBase: new URL("https://mrbidar.ir"),
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  metadataBase: new URL("https://mrbidar.ir"),
+
   robots: {
     index: true,
     follow: true,

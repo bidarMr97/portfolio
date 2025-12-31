@@ -11,7 +11,7 @@ export default function Projects() {
                 <h2 className="text-[18px] mt-[10px] text-center font-[fa11] font-bold sm:text-[25px] lg:text-[19px] lg:p-[5px] lg:absolute lg:mt-[50px] lg:pr-[50px]"> راهنمای آموزشی بازی <strong>Warcraft (دستیار دوتا)</strong></h2>
                 <p  className="text-center mt-[15px] leading-[35px] sm:text-[22px] sm:leading-[50px] lg:w-[600px] lg:leading-[50px] lg:text-[22px] lg:text-center lg:mt-[12%]">
                     در حال حاضر روی برنامه‌ی دستیار دوتا ۱ که
-                    راهنما برای بازی کامپیوتری <strong className="font-[michroma]">Warcraft Dota 1</strong>
+                    راهنما برای بازی کامپیوتری <strong className="font-[michroma] text-blue-600 hover:underline hover:text-blue-800"><a href="https://dota1.ir/">Warcraft Dota 1</a></strong>
                     هست کار می‌کنم. <br /> اگر پیشنهادی برای همکاری داشتین،از طریق{" "}
                     <a href="#contactme" className="font-bold text-blue-600 hover:underline hover:text-blue-800 transition-colors">
                         <br />  لینک‌های تماس<br />

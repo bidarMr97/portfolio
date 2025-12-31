@@ -2,10 +2,6 @@ import BackGround from "@/components/En-Components/BackGround/page";
 import Skills from "@/components/En-Components/EN-Skills/page";
 
 export default function HomeEn() {
-
-
-
-
   return (
     <div>
 
